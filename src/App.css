@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oxanium:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: calc(2px + 1.3vw);
+    line-height: calc(2px + 1.5vw);
+    /*since the text were too close together, I added a line height to make it easier on the eyes*/
+    font-family: 'DM Sans', Arial, sans-serif;
+}
+
+.main{
+    padding: 2%;
+    width: 100%;
+    padding: 1%;
+    margin: 1%;
+}
+
+h1{
+    text-align: center;
+    font-size: calc(2px + 2vw);
+    padding: 1%;
+    padding-bottom: 2%;
+}
+
+p{
+    line-height: calc(2px + 1.7vw);
+}
+
+li{
+    line-height: calc(2px + 1.65vw);
+    padding: 0.5%;
+}
