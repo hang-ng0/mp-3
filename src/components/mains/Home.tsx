@@ -7,18 +7,28 @@ const AboutMeContainer = styled.div`
     flex-direction: row;
     gap: 3%;
     align-items: center;
+    @media screen and (max-width: 900px) {
+        flex-direction: column; 
+    }
 `;
 
 const StyledImg = styled.img`
     width: 30%;
     height: auto;
     margin: 0;
+    @media screen and (max-width: 900px) {
+        width: 35%;
+        margin: 2%; 
+    }
 `;
 
 const Intro = styled.p`
     width: 70%;
     margin: 0;
     //font-size: calc(2px + 1.2vw);
+    @media screen and (max-width: 900px) {
+        width: 100%;
+    }
 `;
 
 export default function Home() {
