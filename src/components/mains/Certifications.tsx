@@ -11,6 +11,7 @@ const StyledImg = styled.img`
 export default function Certifications() {
     return(
         <main className="main">
+            <title>Certifications | Resume</title>
             <h1>Marketing Certifications</h1>
             <h2>HubSpot Digital Marketing Certification</h2>
             <p>HubSpot Academy</p>

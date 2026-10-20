@@ -3,6 +3,7 @@ import '../../App.css';
 export default function Experience() {
     return(
         <main className="main">
+            <title>Experience | Resume</title>
             <h1>Experience</h1>
             <h2>Memory Shop | Loyalty and Email/SMS Marketing Manager</h2>
             <ul>

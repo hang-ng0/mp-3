@@ -24,6 +24,7 @@ const Intro = styled.p`
 export default function Home() {
     return(
         <main className="main">
+            <title>Resume</title>
             <h1>Home</h1>
             <AboutMeContainer>
                 <StyledImg src={headshot} alt={"Hang Nguyen's Headshot against a Plain Pale Backdrop"}/>

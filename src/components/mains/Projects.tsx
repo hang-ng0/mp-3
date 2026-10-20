@@ -112,6 +112,7 @@ export default function Projects() {
 
     return(
         <main className="main">
+            <title>Projects | Resume</title>
             <h1>Projects</h1>
             <StyledDiv>
                 <StyledH2 neg={false}>Calculator</StyledH2>

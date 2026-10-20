@@ -3,6 +3,7 @@ import '../../App.css';
 export default function Volunteer() {
     return(
         <main className="main">
+            <title>Volunteer | Resume</title>
             <h1>Volunteering Experiences</h1>
             <h2>California Scholarship Federation (CSF) | Tutor & Club Member</h2>
             <p>October 2022 - March 2024</p>

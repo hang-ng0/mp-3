@@ -3,6 +3,7 @@ import '../../App.css';
 export default function Education() {
     return(
         <main className="main">
+            <title>Education | Resume</title>
             <h1>Education</h1>
             <h2>Bachelor Degree</h2>
             <p>Boston University Class of 2028</p>
