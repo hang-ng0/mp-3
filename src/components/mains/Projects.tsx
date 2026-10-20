@@ -114,7 +114,7 @@ export default function Projects() {
         <main className="main">
             <h1>Projects</h1>
             <StyledDiv>
-                <StyledH2>Calculator</StyledH2>
+                <StyledH2 neg={false}>Calculator</StyledH2>
                 <StyledLabel htmlFor={"first-number"}>Enter your first number: </StyledLabel>
                 <StyledInput type={"text"} id={"first-number"} value={first} onChange={(e) => setFirst(e.target.value)} />
                 <StyledLabel htmlFor={"second-number"}>Enter your second number:</StyledLabel>
